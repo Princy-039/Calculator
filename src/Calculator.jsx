@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { FiDelete } from "react-icons/fi";
 import "./App.css";
 
 const Calculator = () => {
@@ -31,7 +30,7 @@ const Calculator = () => {
       <div className="buttons">
         <button onClick={handleClear}>C</button>
         <button onClick={() => handleClick("%")}>%</button>
-        <button onClick={handleDelete}><FiDelete /></button>
+        <button onClick={handleDelete}>DEL</button>
         <button onClick={() => handleClick("/")}>/</button>
 
         <button onClick={() => handleClick("7")}>7</button>
